@@ -1,0 +1,45 @@
+{
+  "name": "nodejs-api-sqlite3-p01",
+  "version": "1.0.0",
+  "description": "API Restful",
+  "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "build": "npm run tsc && copyfiles -u 1 src/**/*.ejs dist",
+    "dev": "ts-node-dev --inspect --ignore-watch node_modules src/server.ts",
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest",
+    "knex:seed": "knex --knexfile knexfile.ts seed:run",
+    "start": "node dist/server.js",
+    "start-dev": "nodemon -e ts,json src/server.ts",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "KITAB Informática - Developer: Sandro Yaqub Yusuf",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.13.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.11",
+    "multer": "^1.4.3",
+    "path": "^0.12.7",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.5",
+    "@types/knex": "^0.16.1",
+    "@types/multer": "^1.4.7",
+    "@types/node": "^16.10.3",
+    "@types/sqlite3": "^3.1.7",
+    "ts-node-dev": "^1.1.8"
+  }
+}
