@@ -44,35 +44,33 @@ Pequeno projeto em NODEJS (API RestFul) com BD SQLite3 para simular um back-end 
     npm install --save-dev @types/express
 04. Instalar a biblioteca EXPRESS-VALIDATOR para NODEJS: 
     npm install express-validator
-05. Instalar a biblioteca extra ao EXPRESS-VALIDATOR no NODEJS: 
-    npm install --save-dev @types/express-validator
-06. Instalar a biblioteca KNEX para NODEJS: 
+05. Instalar a biblioteca KNEX para NODEJS: 
     npm install knex
-07. Instalar a biblioteca extra ao KNEX para NODEJS: 
+06. Instalar a biblioteca extra ao KNEX para NODEJS: 
     npm install --save-dev @types/knex
-08. Instalar a biblioteca SQLITE3 para NODEJS: 
+07. Instalar a biblioteca SQLITE3 para NODEJS: 
     npm install sqlite3
-09. Instalar a biblioteca extra ao SQLITE3 para NODEJS: 
+08. Instalar a biblioteca extra ao SQLITE3 para NODEJS: 
     npm install --save-dev @types/sqlite3
-10. Instalar a biblioteca MULTER para NODEJS: 
+09. Instalar a biblioteca MULTER para NODEJS: 
     npm install multer
-11. Instalar a biblioteca extra ao MULTER para NODEJS: 
+10. Instalar a biblioteca extra ao MULTER para NODEJS: 
     npm install --save-dev @types/multer
-12. Instalar a biblioteca BCRYPTJS para NODEJS: 
+11. Instalar a biblioteca BCRYPTJS para NODEJS: 
     npm install bcryptjs
-13. Instalar a biblioteca extra ao BCRYPTJS para NODEJS: 
+12. Instalar a biblioteca extra ao BCRYPTJS para NODEJS: 
     npm install --save-dev @types/bcryptjs
-14. Instalar a biblioteca CORS para NODEJS: 
+13. Instalar a biblioteca CORS para NODEJS: 
     npm install cors
-15. Instalar a biblioteca extra ao CORS para NODEJS: 
+14. Instalar a biblioteca extra ao CORS para NODEJS: 
     npm install --save-dev @types/cors
-16. Instalar a biblioteca JSONWEBTOKEN para NODEJS: 
+15. Instalar a biblioteca JSONWEBTOKEN para NODEJS: 
     npm install jsonwebtoken
-17. Instalar a biblioteca extra ao JSONWEBTOKEN para NODEJS: 
+16. Instalar a biblioteca extra ao JSONWEBTOKEN para NODEJS: 
     npm install --save-dev @types/jsonwebtoken
-18. Instalar a biblioteca PATH no NODEJS: 
+17. Instalar a biblioteca PATH no NODEJS: 
     npm install path
-19. Instalar a biblioteca DOTENV para NODEJS: 
+18. Instalar a biblioteca DOTENV para NODEJS: 
     npm install dotenv
 
 ----
@@ -91,7 +89,8 @@ Pequeno projeto em NODEJS (API RestFul) com BD SQLite3 para simular um back-end 
 1. Crie o arquivo ".env" a partir do arquivo ".env-example" e preencha os dados solicitados
 2. Abra um terminal ou prompt de comando na pasta do projeto e digite:
    npm run start-dev
-3. Utilize algum software de teste de APIs como POSTMAN ou INSOMMNIA
+3. Utilize algum software de teste de APIs como POSTMAN ou INSOMMNIA utilizando a URL:
+   http://localhost:5001
 
 ----
 
